@@ -56,11 +56,7 @@ X_all <- rbind(X_test, X_train)
 ## Extract only the measurements on the mean and standard devication for each measurement
 
 X_new <- X_all[,c(1:6, 41:46, 81:86, 121:126, 161:166, 201:202, 214:215, 227:228, 240:241, 253:254, 266:271, 294:296, 345:350, 373:375, 424:429, 452:454, 503:504, 513, 516:517, 526, 529:530, 539, 542:543, 552, 555:562, 564)]
-## Uses descriptive activity names to name the activities in the data set
 
-
-
-## Appropriately labels the data set with descriptive variable names. 
 
 
 ## Creates a second, independent tidy data set with the average of each variable for each activity 
