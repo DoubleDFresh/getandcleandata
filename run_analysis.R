@@ -50,7 +50,9 @@ X_train$activity_num <- y_train$activity_num
 X_train$activity_labels <- activity_labels[X_train$activity_num,2]
 
 
+## Now append X_test to X_train
 
+X_all <- rbind(X_test, X_train)
 
 
 
